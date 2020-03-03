@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, name) {
   console.log('Welcome, ' + name + '. You are number ' + place + ' in line.');
   return 'Welcome, ' + name + '. You are number ' + place + ' in line.';
 }
-
+takeANumber(katzDeliLine, 'Devin')
 
 
 function nowServing(katzDeliLine) {  
