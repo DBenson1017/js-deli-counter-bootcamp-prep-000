@@ -14,7 +14,7 @@ function nowServing(katzDeliLine) {
   if (katzDeliLine.length>=1) { //if there is at least one person in line 
   //  let name = katzDeliLine[0] //can't change array after return 
     //katzDeliLine.shift(); //takes first name off 
-    return 'Currently serving ' +  katzDeliLine.shift();
+    return 'Currently serving ' +  katzDeliLine.shift()+ '.';
 
   } else {  
     console.log('There is nobody waiting to be served!');
